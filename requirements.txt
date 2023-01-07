@@ -1,4 +1,3 @@
-streamlit
-pickle
-numpy
-pandas
+streamlit==1.16.0
+numpy==1.23.5
+pandas==1.5.1
