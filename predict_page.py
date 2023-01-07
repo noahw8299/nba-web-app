@@ -9,12 +9,12 @@ def load_model():
         data = pickle.load(file)
     return data
 
-# data = load_model()
+data = load_model()
 
-# model = data["model"]
-# df = data["data"]
-# home_pred = data["home"]
-# away_pred = data["away"]
+model = data["model"]
+df = data["data"]
+home_pred = data["home"]
+away_pred = data["away"]
 
 def get_data(team, home=True):
     team_groups = df.groupby('team')
